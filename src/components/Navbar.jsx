@@ -36,9 +36,24 @@ const Navbar = () => {
           FSPR
         </Link>
       )}
-      <ul>
+      <ul className="hidden md:flex ml-auto">
         <CustomLink className="" to="/">
-          Home
+          HOME
+        </CustomLink>
+        <CustomLink className="" to="/about">
+          ABOUT
+        </CustomLink>
+        <CustomLink className="" to="/team">
+          OUR TEAM
+        </CustomLink>
+        <CustomLink className="" to="/cases">
+          NOTABLE CASES
+        </CustomLink>
+        <CustomLink className="" to="/tools">
+          TOOLS
+        </CustomLink>
+        <CustomLink className="" to="/contact">
+          CONTACT
         </CustomLink>
       </ul>
       {/*hamburger*/}
@@ -55,7 +70,32 @@ const Navbar = () => {
       >
         <li className="py-6 text-4xl">
           <NavLink onClick={handleClick} to="/">
-            Home
+            HOME
+          </NavLink>
+        </li>
+        <li className="py-6 text-4xl">
+          <NavLink onClick={handleClick} to="/about">
+            ABOUT
+          </NavLink>
+        </li>
+        <li className="py-6 text-4xl">
+          <NavLink onClick={handleClick} to="/team">
+            OUR TEAM
+          </NavLink>
+        </li>
+        <li className="py-6 text-4xl">
+          <NavLink onClick={handleClick} to="/cases">
+            NOTABLE CASES
+          </NavLink>
+        </li>
+        <li className="py-6 text-4xl">
+          <NavLink onClick={handleClick} to="/tools">
+            TOOLS
+          </NavLink>
+        </li>
+        <li className="py-6 text-4xl">
+          <NavLink onClick={handleClick} to="/contact">
+            CONTACT
           </NavLink>
         </li>
       </ul>
