@@ -26,17 +26,21 @@ const Navbar = () => {
     });
   }
   return (
-    <nav className="sticky flex z-30 top-0">
+    <nav className="sticky font-antique text-xl py-7 flex z-30 top-0 bg-black text-neutral-50">
       {currentPath === "/" ? (
-        <Link className={classNames("")} onClick={scrollToTop} to="/">
+        <Link
+          className={classNames("mx-10 py-5 text-4xl")}
+          onClick={scrollToTop}
+          to="/"
+        >
           FSPR
         </Link>
       ) : (
-        <Link className="" to="/">
+        <Link className="mx-10 py-5 text-4xl" to="/">
           FSPR
         </Link>
       )}
-      <ul className="hidden md:flex ml-auto">
+      <ul className="hidden md:flex ml-auto space-x-5 me-10">
         <CustomLink className="" to="/">
           HOME
         </CustomLink>
@@ -57,7 +61,10 @@ const Navbar = () => {
         </CustomLink>
       </ul>
       {/*hamburger*/}
-      <div onClick={handleClick} className="md:hidden ml-auto py-5 z-10">
+      <div
+        onClick={handleClick}
+        className="md:hidden ml-auto py-5 z-10 text-3xl mx-5 text-neutral-50"
+      >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/*mobile menu */}
@@ -65,7 +72,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "fixed top-0 font-thasadith left-0 w-full h-screen bg-neutral-900 object-cover flex flex-col pt-36 items-center"
+            : "fixed top-0 font-antique left-0 w-full my-gradient h-screen object-cover flex flex-col pt-36 items-center"
         }
       >
         <li className="py-6 text-4xl">
