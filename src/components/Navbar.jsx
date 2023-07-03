@@ -26,7 +26,7 @@ const Navbar = () => {
     });
   }
   return (
-    <nav className="sticky font-antique text-xl py-7 flex z-30 top-0 bg-black text-neutral-50">
+    <nav className="sticky font-antique text-center text-lg tracking-widest md:py-2 flex items-center z-30 top-0 bg-black text-neutral-50">
       {currentPath === "/" ? (
         <Link
           className={classNames("mx-10 py-5 text-4xl")}
