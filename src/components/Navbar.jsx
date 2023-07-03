@@ -26,7 +26,7 @@ const Navbar = () => {
     });
   }
   return (
-    <nav className="sticky font-antique text-center text-lg tracking-widest md:py-2 flex items-center z-30 top-0 bg-black text-neutral-50">
+    <nav className="sticky font-antique text-center text-lg md:text-base tracking-widest md:py-2 flex items-center z-30 top-0 bg-black text-neutral-50">
       {currentPath === "/" ? (
         <Link className={classNames("text-4xl")} onClick={scrollToTop} to="/">
           <div className="flex flex-row items-center mx-5">
@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
         </Link>
       )}
-      <ul className="hidden md:flex ml-auto space-x-5 md:space-x-1 justify-evenly  me-10 md:me-5">
+      <ul className="hidden md:flex ml-auto space-x-5 md:space-x-1 me-10 md:me-5">
         <CustomLink className="" to="/">
           HOME
         </CustomLink>
@@ -58,10 +58,10 @@ const Navbar = () => {
           ABOUT
         </CustomLink>
         <CustomLink className="" to="/team">
-          OUR TEAM
+          TEAM
         </CustomLink>
         <CustomLink className="" to="/cases">
-          NOTABLE CASES
+           CASES
         </CustomLink>
         <CustomLink className="" to="/tools">
           TOOLS
