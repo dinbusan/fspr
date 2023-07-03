@@ -28,19 +28,29 @@ const Navbar = () => {
   return (
     <nav className="sticky font-antique text-center text-lg tracking-widest md:py-2 flex items-center z-30 top-0 bg-black text-neutral-50">
       {currentPath === "/" ? (
-        <Link
-          className={classNames("mx-10 py-5 text-4xl")}
-          onClick={scrollToTop}
-          to="/"
-        >
-          FSPR
+        <Link className={classNames("text-4xl")} onClick={scrollToTop} to="/">
+          <div className="flex flex-row items-center mx-5">
+            <img
+              className="object-cover h-16 m-2"
+              src="./assets/skull_no_bg.png"
+              alt=""
+            />
+            FSPR
+          </div>
         </Link>
       ) : (
-        <Link className="mx-10 py-5 text-4xl" to="/">
-          FSPR
+        <Link className="text-2xl" to="/">
+          <div className="flex flex-row items-center mx-5">
+            <img
+              className="object-cover h-16 m-2"
+              src="./assets/skull_no_bg.png"
+              alt=""
+              />
+              FSPR
+          </div>
         </Link>
       )}
-      <ul className="hidden md:flex ml-auto space-x-5 me-10">
+      <ul className="hidden md:flex ml-auto space-x-5 md:space-x-1 justify-evenly  me-10 md:me-5">
         <CustomLink className="" to="/">
           HOME
         </CustomLink>
