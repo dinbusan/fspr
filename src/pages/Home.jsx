@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="pt-10">
       <div className="md:flex flex-row justify-center items-center">
-        <h1 className="hidden md:block font-antique text-transparent text-7xl text-right w-full ms-3 bg-gradient-to-r from-black to-zinc-300 bg-clip-text">
+        <h1 className="hidden md:block font-antique text-transparent text-7xl text-right w-full ms-3 bg-gradient-to-r from-black to-zinc-400 bg-clip-text">
           Forsaken Souls Paranormal Research
         </h1>
         {/* <h1 className="flex md:hidden font-antique text-white text-5xl ms-10 text-left">
@@ -16,7 +16,7 @@ const Home = () => {
         </h1> */}
         <div className="w-full mx-auto md:me-10 -mt-10 md:mt-0">
           <img
-            className="bg-blend-darken brightness-75 object-cover	"
+            className="bg-blend-darken brightness-90 object-cover	"
             src={Logo}
             alt=""
           />
