@@ -16,7 +16,7 @@ const Home = () => {
         </h1> */}
         <div className="w-full mx-auto md:me-10 -mt-10 md:mt-0">
           <img
-            className="bg-blend-darken brightness-90 object-cover	"
+            className="bg-blend-darken brightness-200 md:brightness-90 object-cover	"
             src={Logo}
             alt=""
           />

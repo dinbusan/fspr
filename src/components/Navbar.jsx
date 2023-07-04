@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
         </Link>
       )}
-      <ul className="hidden md:flex ml-auto space-x-5 md:space-x-1 me-10 md:me-5">
+      <ul className="hidden md:flex ml-auto space-x-5 md:space-x-3 me-10 md:me-5">
         <CustomLink className="" to="/">
           HOME
         </CustomLink>
@@ -61,7 +61,7 @@ const Navbar = () => {
           TEAM
         </CustomLink>
         <CustomLink className="" to="/cases">
-           CASES
+          CASES
         </CustomLink>
         <CustomLink className="" to="/tools">
           TOOLS
@@ -97,12 +97,12 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <NavLink onClick={handleClick} to="/team">
-            OUR TEAM
+            TEAM
           </NavLink>
         </li>
         <li className="py-6 text-4xl">
           <NavLink onClick={handleClick} to="/cases">
-            NOTABLE CASES
+            CASES
           </NavLink>
         </li>
         <li className="py-6 text-4xl">
