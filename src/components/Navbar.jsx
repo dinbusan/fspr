@@ -29,9 +29,9 @@ const Navbar = () => {
     <nav className="sticky font-antique text-center text-lg md:text-base tracking-widest md:py-2 flex items-center z-30 top-0 bg-neutral-950 text-neutral-50">
       {currentPath === "/" ? (
         <Link className={classNames("text-4xl")} onClick={scrollToTop} to="/">
-          <div className="flex flex-row items-center mx-5">
+          <div className="flex flex-row items-center mx-2">
             <img
-              className="object-cover h-16 m-2"
+              className="object-cover h-14 m-2"
               src="./assets/skull_no_bg.png"
               alt=""
             />
@@ -45,8 +45,8 @@ const Navbar = () => {
               className="object-cover h-16 m-2"
               src="./assets/skull_no_bg.png"
               alt=""
-              />
-              FSPR
+            />
+            FSPR
           </div>
         </Link>
       )}
@@ -82,7 +82,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "fixed top-0 font-antique left-0 w-full my-gradient h-screen object-cover flex flex-col pt-36 items-center"
+            : "fixed top-0 font-antique left-0 w-full bg-gradient-to-br from-neutral-950 from-70% to-pink-600 to-100% h-screen object-cover flex flex-col pt-36 items-center"
         }
       >
         <li className="py-6 text-4xl">
