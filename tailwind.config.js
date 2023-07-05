@@ -6,6 +6,9 @@ export default {
     fontFamily: {
       antique: ['Bacasime Antique', 'serif'],
     },
+    backgroundImage: {
+      'logo': "url('/assets/logo_white_no_bg_edited.png')"
+    }
   },
   },
   plugins: [],

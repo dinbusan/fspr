@@ -4,23 +4,16 @@ import Logo from "/assets/logo_white_no_bg_edited.png";
 const Home = () => {
   return (
     <div className="">
-      <div className="fancy_radius bg-gradient-to-bl from-neutral-950 to-neutral-300  h-96 w-full relative text-right ">
-        <img
-          className="fancy_radius object-cover w-full h-full absolute mix-blend-overlay"
-          src="/assets/smoke_bg_2.jpg"
-          alt=""
-        />
-
-        {/* <div className="absolute inset-x-0 bottom-0 h-24 "></div> */}
-
-        <div className="pt-10">
-          <h1 className="pe-10 font-antique text-7xl text-white">
-            Forsaken Souls Paranormal Research
-          </h1>
+      <div className="fog relative h-[100vh] w-full ">
+        <div className="absolute h-96  w-full bg-contain bg-no-repeat bg-center bg-logo pb-10">
+          <div className="logo text-neutral-300 font-antique absolute w-full flex justify-center bottom-5 text-xl">
+            <h1>Saving the forsaken, speaking for the silent.</h1>
+          </div>
+        <div className="fog-container overflow-hidden z-1 w-full h-full absolute">
+          <div className="fog-img h-full fog-img-first"></div>
+          <div className="fog-img h-full fog-img-second"></div>
         </div>
-          <h1 className="font-antique text-white text-xl mx-auto text-center ">
-            Saving the forsaken, speaking for the silent.
-          </h1>
+        </div>
       </div>
     </div>
   );
