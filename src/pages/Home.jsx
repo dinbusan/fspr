@@ -9,10 +9,10 @@ const Home = () => {
           <div className="logo text-neutral-300 font-antique absolute w-full flex justify-center bottom-5 text-xl">
             <h1>Saving the forsaken, speaking for the silent.</h1>
           </div>
-        <div className="fog-container overflow-hidden z-1 w-full h-full absolute">
-          <div className="fog-img h-full fog-img-first"></div>
-          <div className="fog-img h-full fog-img-second"></div>
-        </div>
+          <div className="fog-container overflow-hidden z-1 w-full h-full absolute">
+            <div className="fog-img h-full fog-img-first"></div>
+            <div className="fog-img h-full fog-img-second"></div>
+          </div>
         </div>
       </div>
     </div>
