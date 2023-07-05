@@ -82,7 +82,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "fixed top-0 font-antique left-0 w-full bg-gradient-to-br from-neutral-950 from-70% to-pink-600 to-100% h-screen object-cover flex flex-col pt-36 items-center"
+            : "fixed top-0 font-antique left-0 w-full bg-gradient-to-br from-neutral-950 from-70% to-sky-800 to-100% h-screen object-cover flex flex-col pt-36 items-center"
         }
       >
         <li className="py-6 text-4xl">
