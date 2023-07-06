@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="">
       <div className="fog relative h-[100vh] w-full ">
-        <div className="absolute h-96  w-full bg-contain bg-no-repeat bg-center bg-logo pb-10">
+        <div className="absolute h-[28rem] w-full bg-cover bg-no-repeat bg-center  bg-logo pb-10">
           <div className="logo text-neutral-300 font-antique absolute w-full flex justify-center bottom-5 text-xl">
             <h1>Saving the forsaken, speaking for the silent.</h1>
           </div>
