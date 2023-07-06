@@ -26,7 +26,7 @@ const Navbar = () => {
     });
   }
   return (
-    <nav className="sticky font-antique text-center text-lg md:text-base tracking-widest md:py-2 flex items-center z-30 top-0 bg-neutral-950 text-neutral-50">
+    <nav className="sticky font-antique text-center text-lg md:text-base lg:text-2xl tracking-widest md:py-2 flex items-center z-30 top-0 bg-neutral-950 text-neutral-50">
       {currentPath === "/" ? (
         <Link className={classNames("text-4xl")} onClick={scrollToTop} to="/">
           <div className="flex flex-row items-center mx-2">
