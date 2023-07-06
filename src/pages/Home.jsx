@@ -50,8 +50,10 @@ const Home = () => {
           </span>
         </Link>
       </div>
-      <div className="grid grid-cols1">
-        <img className="" src="/assets/images/business_card_1.jpeg" alt="" />
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:mx-5  gap-y-5  lg:gap-5">
+        <img className="w-full h-full object-cover" src="/assets/images/business_card_1.jpeg" alt="" />
+        <img className="h-full object-cover" src="/assets/images/cemetary.jpeg" alt="" />
+        <img className="h-full object-cover" src="/assets/images/jail_2.jpeg" alt="" />
       </div>
     </div>
   );
