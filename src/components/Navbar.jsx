@@ -32,18 +32,18 @@ const Navbar = () => {
           <div className="flex flex-row items-center mx-2">
             <img
               className="object-cover h-14 m-2"
-              src="./assets/skull_no_bg.png"
+              src="./assets/logos/skull_no_bg.png"
               alt=""
             />
             FSPR
           </div>
         </Link>
       ) : (
-        <Link className="text-2xl" to="/">
-          <div className="flex flex-row items-center mx-5">
+        <Link className="text-4xl" to="/">
+          <div className="flex flex-row items-center mx-2">
             <img
-              className="object-cover h-16 m-2"
-              src="./assets/skull_no_bg.png"
+              className="object-cover h-14 m-2"
+              src="./assets/logos/skull_no_bg.png"
               alt=""
             />
             FSPR
