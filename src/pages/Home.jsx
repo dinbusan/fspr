@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="">
-      <div className="fog relative h-[32rem] w-full ">
+      <div className="fog relative h-[32rem] w-full -mt-10 ">
         <div className="absolute h-[32rem] w-full bg-cover md:bg-contain bg-no-repeat bg-center lg:bg-left bg-logo pb-10 ">
-          <div className="text-neutral-200 lg:flex lg:flex-col lg:text-right  font-antique absolute w-full flex justify-center bottom-1">
-            <h1 className="hidden lg:block text-7xl">
+          <div className="text-transparent bg-clip-text bg-gradient-to-b from-black to-slate-600 lg:flex lg:flex-col lg:text-right  font-antique absolute w-full flex justify-center bottom-1">
+            <h1 className="hidden lg:block text-7xl ">
               Forsaken Souls
               <br /> Paranormal Research
             </h1>
@@ -44,16 +44,28 @@ const Home = () => {
           className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
           to="/contact"
         >
-          <span class="w-full h-full bg-gradient-to-br from-[#81A6E7] via-[#000] to-[#ff00c6] group-hover:from-[#81A6E7] group-hover:via-[#000] group-hover:to-[#ff00c6] absolute"></span>
+          <span class="w-full h-full bg-gradient-to-br from-[#81A6E7] via-[#000] to-[#81A6E7] group-hover:from-[#81A6E7] group-hover:to-[#81A6E7] absolute"></span>
           <span class="relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
             <span class="relative text-white">CONTACT US</span>
           </span>
         </Link>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 md:mx-5  gap-y-5  lg:gap-5">
-        <img className="w-full h-full object-cover" src="/assets/images/business_card_1.jpeg" alt="" />
-        <img className="h-full object-cover" src="/assets/images/cemetary.jpeg" alt="" />
-        <img className="h-full object-cover" src="/assets/images/jail_2.jpeg" alt="" />
+        <img
+          className="w-full h-full object-cover"
+          src="/assets/images/business_card_1.jpeg"
+          alt=""
+        />
+        <img
+          className="h-full object-cover"
+          src="/assets/images/cemetary.jpeg"
+          alt=""
+        />
+        <img
+          className="h-full object-cover"
+          src="/assets/images/jail_2.jpeg"
+          alt=""
+        />
       </div>
     </div>
   );
