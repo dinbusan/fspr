@@ -5,24 +5,25 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="">
-      <div className="fog relative h-[32rem] w-full -mt-10 ">
-        <div className="absolute h-[32rem] w-full bg-cover md:bg-contain bg-no-repeat bg-center lg:bg-left bg-logo pb-10 ">
+      <div className="fog relative h-[26rem] w-full">
+        <div className="brightness-200 absolute h-[28rem] w-full bg-cover  md:bg-contain bg-top lg:bg-left bg-logo">
           <div className="text-transparent bg-clip-text bg-gradient-to-b from-black to-slate-600 lg:flex lg:flex-col lg:text-right  font-antique absolute w-full flex justify-center bottom-1">
             <h1 className="hidden lg:block text-7xl ">
               Forsaken Souls
               <br /> Paranormal Research
             </h1>
-            <h1 className="font-metal text-3xl tracking-widest px-2 pb-2 text-center">
-              Saving the forsaken, speaking for the silent
-            </h1>
           </div>
-          <div className="fog-container overflow-hidden z-1 w-full h-full absolute">
+          <div className="fog-container opacity-90 overflow-hidden z-1 w-full h-full absolute">
             <div className="fog-img h-full fog-img-first"></div>
             <div className="fog-img h-full fog-img-second"></div>
           </div>
         </div>
       </div>
-      <div className="mx-5 mt-5 pb-5">
+      <div className="mx-5 mt-2 pb-5">
+        <h1 className="relative opacity-90 font-metal text-white text-3xl tracking-widest px-2 pb-8 text-center">
+          Saving the forsaken,
+          <br /> speaking for the silent
+        </h1>
         <p className="font-antique text-neutral-300 text-left text-lg ">
           We are a team of experienced professionals who research and
           investigate a wide-variety of paranormal phenomenon ranging from

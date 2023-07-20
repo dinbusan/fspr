@@ -5,12 +5,12 @@ import Navbar from "./components/Navbar";
 import Loading from "./components/Loading"
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     setIsLoading(true);
     setTimeout(() => {
-      setIsLoading(true);
+      setIsLoading(false);
     }, 3000);
   }, []);
 
