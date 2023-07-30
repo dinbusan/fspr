@@ -10,7 +10,7 @@ background: linear-gradient(135deg, #010101, #5A0142);
 .active {
   text-decoration: underline;
   text-underline-offset: 5px;
-  color: rgb(98, 84, 140);
+  color: #6366f1;
 }
 
 .fancy_radius {

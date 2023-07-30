@@ -26,9 +26,14 @@ const Navbar = () => {
     });
   }
   return (
-    <nav className="sticky font-antique text-center text-lg md:text-base lg:text-2xl tracking-widest md:py-2 flex items-center z-30 top-0 bg-neutral-950 text-neutral-50">
+    <nav
+      className={classNames(
+        scrollPosition > 100 ? "bg-opacity-25" : "bg-opacity-100",
+        "sticky font-antique text-center text-lg md:text-base lg:text-2xl tracking-widest md:py-2 flex items-center z-30 top-0 bg-neutral-950 text-neutral-50 duration-500"
+      )}
+    >
       {currentPath === "/" ? (
-        <Link className={classNames("text-4xl")} onClick={scrollToTop} to="/">
+        <Link className="text-4xl" onClick={scrollToTop} to="/">
           <div className="flex flex-row items-center mx-2">
             <img
               className="object-cover h-14 m-2"
@@ -50,23 +55,23 @@ const Navbar = () => {
           </div>
         </Link>
       )}
-      <ul className="hidden md:flex ml-auto space-x-5 md:space-x-3 me-10 md:me-5">
-        <CustomLink className="" to="/">
+      <ul className="hidden md:flex ml-auto space-x-5 md:space-x-3 me-10 md:me-5 ">
+        <CustomLink className="hover:text-indigo-500 duration-300" to="/">
           HOME
         </CustomLink>
-        <CustomLink className="" to="/about">
+        <CustomLink className="hover:text-indigo-500 duration-300" to="/about">
           ABOUT
         </CustomLink>
-        <CustomLink className="" to="/team">
+        <CustomLink className="hover:text-indigo-500 duration-300" to="/team">
           TEAM
         </CustomLink>
-        <CustomLink className="" to="/cases">
+        <CustomLink className="hover:text-indigo-500 duration-300" to="/cases">
           CASES
         </CustomLink>
-        <CustomLink className="" to="/tools">
+        <CustomLink className="hover:text-indigo-500 duration-300" to="/tools">
           TOOLS
         </CustomLink>
-        <CustomLink className="" to="/contact">
+        <CustomLink className="hover:text-indigo-500 duration-300" to="/contact">
           CONTACT
         </CustomLink>
       </ul>
