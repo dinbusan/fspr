@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={classNames(
         scrollPosition > 100 ? "bg-opacity-25" : "bg-opacity-100",
-        "sticky font-antique text-center text-lg md:text-base lg:text-2xl tracking-widest md:py-2 flex items-center z-30 top-0 bg-neutral-950 text-neutral-50 duration-500"
+        "sticky font-antique text-center text-lg md:text-base lg:text-2xl tracking-widest md:py-2 flex items-center z-30 top-0 bg-neutral-900 text-neutral-50 duration-500"
       )}
     >
       {currentPath === "/" ? (
