@@ -55,9 +55,25 @@ const Contact = () => {
       ) : (
         <div className="w-5/6">
           <div className="font-antique mt-14 flex justify-center">
-            <div className="w-full flex flex-col lg:flex-row xl:w-3/4 justify-center items-center">
+            <div className="w-full flex flex-col lg:flex-row xl:w-3/4 text-neutral-50 justify-center items-center">
+              <h1 className="text-4xl text-center mb-10">
+               CONTACT
+              </h1>
+              <h1 className="text-2xl text-center">
+                Are You Experiencing the Unexplained?
+              </h1>
+              <p className="text-xl mt-5">
+                Do you believe you might be haunted? Are you seeking someone
+                from our team to discuss if an investigation is necessary? We're
+                here for you!
+              </p>
+              <p className="text-xl my-5">
+                Use the form below to get in touch with us right away. Your
+                concerns are essential to us, and we'll respond promptly to
+                provide the assistance you need.
+              </p>
               <div
-                className="w-full  shadow-lg rounded-md bg-neutral-50 mr-10 p-2 md:p-8 flex flex-col"
+                className="w-full text-black shadow-lg rounded-md bg-neutral-50 lg:mr-10 p-2 md:p-8 flex flex-col"
                 style={{ height: "450px" }}
               >
                 <h2 className="text-center font-medium my-4 text-4xl">
