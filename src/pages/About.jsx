@@ -8,11 +8,11 @@ const About = () => {
         ABOUT
       </h1>
       <img
-        className="aspect-square object-cover object-bottom mt-8 mb-5"
+        className="aspect-square object-cover object-bottom mt-8 mb-5 md:w-1/2 md:mx-auto xl:w-1/4"
         src={Team}
         alt=""
       />
-      <div className="text-neutral-50 mx-5 font-antique text-lg text-center">
+      <div className="text-neutral-50 mx-5 font-antique text-lg text-center lg:w-3/4 lg:mx-auto lg:text-left">
         <p className="">
           We are a team of experienced professionals who research and
           investigate a wide-variety of paranormal phenomenon ranging from
@@ -29,22 +29,25 @@ const About = () => {
           is conducted in a fair and impartial manner with the utmost respect,
           honor, and integrity.
         </p>
-        <h1 className="text-3xl text-center py-10">SERVICES</h1>
+        <h1 className="text-3xl text-center pt-10 pb-5">SERVICES</h1>
         <p>
           With 23+ years of extensive, detail-oriented experience, our team of
           professionals wide-variety of Paranormal Phenomenon including, but NOT
           limited to:
         </p>
-        <ul className="list-disc mx-10 my-5 text-left">
-          <li>Traditional Hauntings</li>
-          <li>Residuals are Hauntings</li>
-          <li>Poltergeist Activity</li>
-          <li>Haunted Objects & Attachments</li>
-          <li>Demonic Infestation & Possession</li>
-          <li>Cold Case Crimes</li>
-          <li>Missing Persons Cases</li>
-          <li>Psychic-Medium Investigations</li>
-        </ul>
+        <div className="text-xl md:justify-center md:flex leading-9">
+          
+          <ul className="list-disc mx-10 my-5 text-left">
+            <li>Traditional Hauntings</li>
+            <li>Residuals are Hauntings</li>
+            <li>Poltergeist Activity</li>
+            <li>Haunted Objects & Attachments</li>
+            <li>Demonic Infestation & Possession</li>
+            <li>Cold Case Crimes</li>
+            <li>Missing Persons Cases</li>
+            <li>Psychic-Medium Investigations</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

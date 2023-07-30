@@ -9,8 +9,12 @@ const Team = () => {
         Our Team
       </h1>
       <div className="md:flex justify-center xl:w-2/3 mx-auto pt-10">
-        <div className="w-full md:w-1/2 md:mx-auto md:px-5 xl:w-full mb-5">
-          <img className="object-cover aspect-square" src={Jaci} alt="" />
+        <div className="w-full md:w-1/2 md:mx-auto md:px-5 xl:w-1/3 mb-5">
+          <img
+            className="object-cover aspect-square rounded-full"
+            src={Jaci}
+            alt=""
+          />
           <h2 className="text-neutral-50 font-antique text-center text-3xl mt-5">
             Jaclyn LáRen
           </h2>
@@ -27,8 +31,12 @@ const Team = () => {
             accusamus ipsam placeat facilis eos omnis at dicta?
           </p>
         </div>
-        <div className="w-full md:w-1/2 md:mx-10 md:mx-auto md:px-5 xl:w-full mb-5">
-          <img className="object-cover aspect-square" src={Empty} alt="" />
+        <div className="w-full md:w-1/2 md:mx-10 md:mx-auto md:px-5 xl:w-1/3 mb-5">
+          <img
+            className="object-cover aspect-square rounded-full"
+            src={Empty}
+            alt=""
+          />
           <h2 className="text-neutral-50 font-antique text-center text-3xl mt-5">
             Member
           </h2>
