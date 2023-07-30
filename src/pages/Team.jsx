@@ -5,14 +5,17 @@ import Empty from "/assets/images/empty.png";
 const Team = () => {
   return (
     <div className="mx-auto">
-      <h1 className="text-neutral-50 font-antique text-7xl text-center py-10">
+      <h1 className="text-neutral-50 font-antique text-7xl text-center pt-10">
         Our Team
       </h1>
-      <div className="flex justify-center xl:w-2/3 mx-auto">
-        <div className="w-full md:w-1/2 md:mx-auto md:px-5 xl:w-full ">
+      <div className="md:flex justify-center xl:w-2/3 mx-auto">
+        <div className="w-full md:w-1/2 md:mx-auto md:px-5 xl:w-full my-10">
           <img className="object-cover aspect-square" src={Jaci} alt="" />
-          <h2 className="text-neutral-50 font-antique text-center text-3xl my-5">
+          <h2 className="text-neutral-50 font-antique text-center text-3xl mt-5">
             Jaclyn LáRen
+          </h2>
+          <h2 className="text-neutral-50 font-antique text-center text-xl mb-5">
+            Founder
           </h2>
           <p className="text-neutral-50 text-center font-antique mx-5">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident,
@@ -26,9 +29,13 @@ const Team = () => {
         </div>
         <div className="w-full md:w-1/2 md:mx-10 md:mx-auto md:px-5 xl:w-full">
           <img className="object-cover aspect-square" src={Empty} alt="" />
-          <h2 className="text-neutral-50 font-antique text-center text-3xl my-5">
+          <h2 className="text-neutral-50 font-antique text-center text-3xl mt-5">
             Member
           </h2>
+          <h2 className="text-neutral-50 font-antique text-center text-xl mb-5">
+            Co-Founder
+          </h2>
+
           <p className="text-neutral-50 text-center font-antique mx-5">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident,
             illo. Perspiciatis sunt quod esse delectus earum adipisci molestias

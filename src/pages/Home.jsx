@@ -32,15 +32,14 @@ const Home = () => {
             investigate a wide-variety of paranormal phenomenon ranging from
             traditional and residual hauntings to poltergeist and demonic
             infestation.
-            <br /> With backgrounds in law enforcement, military intelligence,
-            criminal investigations, and research analysis, we specialize in
-            investigating cold case crimes, missing persons cases, and demonic
-            attachment cases.
-            <br /> Our goal is to provide confidential, compassionate, and
-            professional investigative and support services to those in need of
-            help, and to ultimately validate or debunk the presence of entities,
-            all of which is conducted in a fair and impartial manner with the
-            utmost respect, honor, and integrity.
+          </p>
+          <p className="font-antique mt-5 xl:w-2/3 xl:mx-auto text-neutral-300 text-left md:text-center text-lg ">
+            The purpose of this page is to share our experiences and
+            investigations with the community, connect with like-minded
+            investigators/researchers, provide a place for others to share
+            incredible experiences and content, and most importantly- continue
+            to grow our network and strengthen the ParaUnity bond within the
+            paranormal community!
           </p>
         </div>
         <div className="flex justify-center my-5">
