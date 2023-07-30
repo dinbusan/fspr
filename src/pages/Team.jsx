@@ -8,8 +8,8 @@ const Team = () => {
       <h1 className="text-neutral-50 font-antique text-7xl text-center pt-10">
         Our Team
       </h1>
-      <div className="md:flex justify-center xl:w-2/3 mx-auto">
-        <div className="w-full md:w-1/2 md:mx-auto md:px-5 xl:w-full my-10">
+      <div className="md:flex justify-center xl:w-2/3 mx-auto pt-10">
+        <div className="w-full md:w-1/2 md:mx-auto md:px-5 xl:w-full mb-5">
           <img className="object-cover aspect-square" src={Jaci} alt="" />
           <h2 className="text-neutral-50 font-antique text-center text-3xl mt-5">
             Jaclyn LáRen
@@ -27,7 +27,7 @@ const Team = () => {
             accusamus ipsam placeat facilis eos omnis at dicta?
           </p>
         </div>
-        <div className="w-full md:w-1/2 md:mx-10 md:mx-auto md:px-5 xl:w-full">
+        <div className="w-full md:w-1/2 md:mx-10 md:mx-auto md:px-5 xl:w-full mb-5">
           <img className="object-cover aspect-square" src={Empty} alt="" />
           <h2 className="text-neutral-50 font-antique text-center text-3xl mt-5">
             Member
