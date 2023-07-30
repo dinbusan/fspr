@@ -54,21 +54,13 @@ const Contact = () => {
         </div>
       ) : (
         <div className="w-5/6">
-          <div className="font-antique mt-20">
-            <p className="text-neutral-50 text-center text-xl">
-              P.O. Box 1115 Pottsville, PA. 17901 <br /> Jaclyn LáRen - (814)
-              952-0840
-              <br />
-              Johnny - (814) 249-1982 <br />
-              ForsakenSoulsPRG@gmail.com
-            </p>
-
-            <div className="mt-5 md:w-1/2 flex justify-center items-center">
+          <div className="font-antique mt-14 flex justify-center">
+            <div className="w-full flex flex-col lg:flex-row xl:w-3/4 justify-center items-center">
               <div
-                className="w-full shadow-lg rounded-md bg-neutral-50 p-2 md:p-8 flex flex-col"
+                className="w-full  shadow-lg rounded-md bg-neutral-50 mr-10 p-2 md:p-8 flex flex-col"
                 style={{ height: "450px" }}
               >
-                <h2 className="text-center font-medium mb-4 text-4xl">
+                <h2 className="text-center font-medium my-4 text-4xl">
                   CONTACT US
                 </h2>
                 <form
@@ -133,6 +125,13 @@ const Contact = () => {
                   </button>
                 </form>
               </div>
+              <p className="text-neutral-50 text-center text-xl mt-5">
+                P.O. Box 1115 Pottsville, PA. 17901 <br /> Jaclyn LáRen - (814)
+                952-0840
+                <br />
+                Johnny - (814) 249-1982 <br />
+                ForsakenSoulsPRG@gmail.com
+              </p>
             </div>
           </div>
         </div>
