@@ -6,11 +6,13 @@ const Home = () => {
   return (
     <div className="">
       <div className="fog relative h-[26rem] w-full">
-        <div className="brightness-200 absolute h-[28rem] w-full bg-cover  md:bg-contain bg-top lg:bg-left bg-logo">
-          <div className="text-transparent bg-clip-text bg-gradient-to-b from-black to-slate-600 lg:flex lg:flex-col lg:text-right  font-antique absolute w-full flex justify-center bottom-1">
-            <h1 className="hidden lg:block text-7xl ">
-              Forsaken Souls
-              <br /> Paranormal Research
+        <div className="brightness-200 absolute h-[28rem] w-full bg-cover md:bg-contain bg-top lg:bg-left bg-logo xl:bg-[center_right_20rem] bg-no-repeat">
+          <div className="text-white z-30 font-antique absolute right-1 bottom-1 lg:bottom-40 xl:bottom-10 lg:right-11 xl:left-64 xl:tracking-wider opacity-30 tracking-widest">
+            <h1 className="hidden lg:block text-7xl xl:text-8xl ">
+              Forsaken
+              <br className="hidden xl:block" /> Souls
+              <br /> Paranormal <br className="hidden xl:block" />
+              Research
             </h1>
           </div>
           <div className="fog-container opacity-90 overflow-hidden z-1 w-full h-full absolute">
@@ -20,11 +22,11 @@ const Home = () => {
         </div>
       </div>
       <div className="mx-5 mt-2 pb-5">
-        <h1 className="relative opacity-90 font-metal text-white text-3xl tracking-widest px-2 pb-8 text-center">
+        <h1 className="relative opacity-90 font-metal text-white text-3xl lg:text-5xl xl:text-4xl xl:opacity-75 tracking-widest lg:tracking-wider px-2 pb-8 text-center">
           Saving the forsaken,
-          <br /> speaking for the silent
+          <br className="md:hidden" /> speaking for the silent
         </h1>
-        <p className="font-antique text-neutral-300 text-left text-lg ">
+        <p className="font-antique xl:w-2/3 xl:mx-auto text-neutral-300 text-left md:text-center text-lg ">
           We are a team of experienced professionals who research and
           investigate a wide-variety of paranormal phenomenon ranging from
           traditional and residual hauntings to poltergeist and demonic
