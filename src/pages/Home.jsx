@@ -1,10 +1,17 @@
 import React from "react";
 import Logo from "/assets/logos/logo_white_no_bg_edited.png";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+      className=""
+    >
       <div className="fog relative h-[26rem] w-full">
         <div className="brightness-200 absolute h-[28rem] xl:h-[36rem] w-full bg-cover md:bg-contain bg-top lg:bg-left bg-logo xl:bg-[center_right_15rem] bg-no-repeat">
           <div className="text-white z-30 font-antique absolute right-1 bottom-1 lg:bottom-40 xl:bottom-24 lg:right-11 xl:left-56 xl:tracking-wider opacity-30 tracking-widest">
@@ -73,7 +80,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

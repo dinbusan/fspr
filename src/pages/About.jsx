@@ -1,11 +1,19 @@
 import React from "react";
 import Team from "/assets/images/team_cropped.jpg";
+import { motion } from "framer-motion";
+
 
 const About = () => {
   return (
-    <div>
-      <h1 className="text-neutral-50 mx-5 font-antique text-3xl text-center pt-10">
-        ABOUT
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+      className="pb-5"
+    >
+      <h1 className="text-neutral-50 mx-5 font-antique text-4xl text-center pt-10">
+        ABOUT FSPR
       </h1>
       <img
         className="aspect-square object-cover object-bottom mt-8 mb-5 md:w-1/2 md:mx-auto xl:w-1/4"
@@ -30,7 +38,7 @@ const About = () => {
           honor, and integrity.
         </p>
         <h1 className="text-3xl text-center pt-10 pb-5">SERVICES</h1>
-        <p>
+        <p className="xl:w-3/4 xl:text-center xl:mx-auto">
           With 23+ years of extensive, detail-oriented experience, our team of
           professionals wide-variety of Paranormal Phenomenon including, but NOT
           limited to:
@@ -49,7 +57,7 @@ const About = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

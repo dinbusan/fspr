@@ -2,10 +2,17 @@ import React from "react";
 import Jaci from "/assets/images/jaci.jpg";
 import Johnny from "/assets/images/johnny_cropped.jpg"
 import Empty from "/assets/images/empty.png";
+import { motion } from "framer-motion";
 
 const Team = () => {
   return (
-    <div className="mx-auto">
+     <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+      className="pb-5 mx-auto"
+    >
       <h1 className="text-neutral-50 font-antique text-7xl text-center pt-10">
         Our Team
       </h1>
@@ -56,7 +63,7 @@ const Team = () => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
