@@ -1,5 +1,6 @@
 import React from "react";
 import Jaci from "/assets/images/jaci.jpg";
+import Johnny from "/assets/images/johnny_cropped.jpg"
 import Empty from "/assets/images/empty.png";
 
 const Team = () => {
@@ -34,11 +35,11 @@ const Team = () => {
         <div className="w-full md:w-1/2 md:mx-10 md:mx-auto md:px-5 xl:w-1/3 mb-5">
           <img
             className="object-cover aspect-square rounded-full"
-            src={Empty}
+            src={Johnny}
             alt=""
           />
           <h2 className="text-neutral-50 font-antique text-center text-3xl mt-5">
-            Member
+            Johnny Vega
           </h2>
           <h2 className="text-neutral-50 font-antique text-center text-xl mb-5">
             Co-Founder
