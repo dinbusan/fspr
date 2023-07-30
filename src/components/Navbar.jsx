@@ -56,22 +56,22 @@ const Navbar = () => {
         </Link>
       )}
       <ul className="hidden md:flex ml-auto space-x-5 md:space-x-3 me-10 md:me-5 ">
-        <CustomLink className="hover:text-indigo-500 duration-300" to="/">
+        <CustomLink className="hover:text-indigo-300 duration-300" to="/">
           HOME
         </CustomLink>
-        <CustomLink className="hover:text-indigo-500 duration-300" to="/about">
+        <CustomLink className="hover:text-indigo-300 duration-300" to="/about">
           ABOUT
         </CustomLink>
-        <CustomLink className="hover:text-indigo-500 duration-300" to="/team">
+        <CustomLink className="hover:text-indigo-300 duration-300" to="/team">
           TEAM
         </CustomLink>
-        <CustomLink className="hover:text-indigo-500 duration-300" to="/cases">
+        <CustomLink className="hover:text-indigo-300 duration-300" to="/cases">
           CASES
         </CustomLink>
-        <CustomLink className="hover:text-indigo-500 duration-300" to="/tools">
+        <CustomLink className="hover:text-indigo-300 duration-300" to="/tools">
           TOOLS
         </CustomLink>
-        <CustomLink className="hover:text-indigo-500 duration-300" to="/contact">
+        <CustomLink className="hover:text-indigo-300 duration-300" to="/contact">
           CONTACT
         </CustomLink>
       </ul>

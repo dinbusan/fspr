@@ -47,9 +47,9 @@ const Home = () => {
           className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md"
           to="/contact"
         >
-          <span className="w-full h-full bg-gradient-to-br from-[#81A6E7] via-[#000] to-[#81A6E7] group-hover:from-[#81A6E7] group-hover:to-[#81A6E7] absolute"></span>
+          <span className="w-full h-full bg-gradient-to-br from-[#6366f1] via-[#000] to-[#6366f1] group-hover:from-[#6366f1] group-hover:to-[#6366f1] absolute"></span>
           <span className="relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
-            <span className="relative text-white">CONTACT US</span>
+            <span className="relative text-white font-extralight">CONTACT US</span>
           </span>
         </Link>
       </div>
