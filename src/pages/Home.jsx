@@ -30,7 +30,7 @@ const Home = () => {
       </div>
       <div className="bottom_half xl:mt-36">
         <div className="mx-5 mt-2 pb-5">
-          <h1 className="relative opacity-90 font-metal text-white text-3xl lg:text-5xl xl:text-4xl xl:opacity-75 tracking-widest lg:tracking-wider px-2 pb-8 text-center">
+          <h1 className="relative opacity-70 font-metal text-neutral-50 text-3xl lg:text-5xl xl:text-4xl xl:opacity-75 tracking-widest lg:tracking-wider px-2 pb-8 text-center">
             Saving the forsaken,
             <br className="md:hidden" /> speaking for the silent
           </h1>
