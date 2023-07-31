@@ -76,7 +76,7 @@ const Contact = () => {
               </div>
               <div className="w-full lg:w-3/4">
                 <div
-                  className="w-full text-black shadow-lg rounded-md bg-neutral-50 lg:mr-10 p-2 md:p-8 flex flex-col"
+                  className="w-full text-black shadow-lg rounded-md bg-neutral-50 lg:mr-10 xl:mr-1 p-2 md:p-8 flex flex-col"
                   style={{ height: "450px" }}
                 >
                   <h2 className="text-center font-medium my-4 text-4xl">

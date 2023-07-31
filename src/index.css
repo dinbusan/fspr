@@ -37,6 +37,7 @@ background: linear-gradient(135deg, #010101, #5A0142);
   animation: marquee 30s linear infinite;
 }
 
+
 .fog-img-second {
   background: linear-gradient(
       to bottom,

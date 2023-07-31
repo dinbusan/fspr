@@ -71,7 +71,10 @@ const Navbar = () => {
         <CustomLink className="hover:text-indigo-300 duration-300" to="/tools">
           TOOLS
         </CustomLink>
-        <CustomLink className="hover:text-indigo-300 duration-300" to="/contact">
+        <CustomLink
+          className="hover:text-indigo-300 duration-300"
+          to="/contact"
+        >
           CONTACT
         </CustomLink>
       </ul>
@@ -87,7 +90,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "fixed top-0 font-antique left-0 w-full bg-gradient-to-br from-neutral-950 from-70% to-sky-800 to-100% h-screen object-cover flex flex-col pt-36 items-center"
+            : "fixed top-0 font-antique left-0 w-full bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-slate-800 via-gray-900 to-black h-screen object-cover flex flex-col pt-36 items-center"
         }
       >
         <li className="py-6 text-4xl">

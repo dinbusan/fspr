@@ -68,6 +68,7 @@ const Home = () => {
             src="/assets/images/business_card_1.jpeg"
             alt=""
           />
+          
           <img
             className="h-full object-cover"
             src="/assets/images/cemetary.jpeg"
