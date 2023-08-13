@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaYoutube, FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -12,17 +12,28 @@ const Footer = () => {
           <Link className="md:hidden" to="tel:8149520840">
             (814) 952-0840
           </Link>
-          
           2023 FSPR
           <br />
           Follow us at:
         </p>
         <div className="justify-center pt-1 flex text-lg ">
-          {/* <a href="https://www.instagram.com/saltandspoonct/">
+          <a href="https://www.instagram.com/Forsakensouls_PRG/">
             <FaInstagram className="mx-1 hover:text-neutral-400 duration-300" />
-          </a> */}
+          </a>
           <a href="https://www.facebook.com/groups/256692230146102">
             <FaFacebook className="mx-1 hover:text-neutral-400 duration-300" />
+          </a>
+          <a href="https://www.youtube.com/@ForsakenSouls_PRG/">
+            <FaYoutube
+              className="mx-1 hover:text-neutral-400 duration-300"
+              icon="fa-brands fa-youtube"
+            />
+          </a>
+          <a href="https://www.tiktok.com/@forsakensouls_prg/">
+            <FaTiktok
+              className="mx-1 hover:text-neutral-400 duration-300"
+              icon="fa-brands fa-tiktok"
+            />
           </a>
         </div>
       </div>
